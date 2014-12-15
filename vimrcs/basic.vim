@@ -215,8 +215,9 @@ vnoremap <silent> # :call VisualSelection('b', '')<CR>
 map j gj
 map k gk
 
-" Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
-map <space> /
+" Map <Space> to folding and Ctrl-<Space> to ? (backwards search)
+nnoremap <Space> za
+" map <space> /
 map <c-space> ?
 
 " Disable highlight when <leader><cr> is pressed
